@@ -1,8 +1,13 @@
 package br.com.caelum.ingresso.dao;
 
+<<<<<<< HEAD
 import br.com.caelum.ingresso.model.Filme;
 import br.com.caelum.ingresso.model.Sala;
 import br.com.caelum.ingresso.model.Sessao;
+=======
+//import br.com.caelum.ingresso.model.Sala;
+//import br.com.caelum.ingresso.model.Sessao;
+>>>>>>> 253d8b113756222c18416c1e38953186c89eecf8
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -34,4 +39,5 @@ public class SessaoDao {
                 .setParameter("filme", filme)
                 .getResultList();
     }
+
 }
